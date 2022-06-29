@@ -15,11 +15,17 @@ a {
   text-decoration: none;
 }
 
+.gradient__text{
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .section__margin {
-  padding: 4rem 6rem;
+  margin: 4rem 6rem;
 }
 .section__padding {
-  margin: 4rem 6rem;
+  padding: 4rem 6rem;
 }
 
 /* Gradient background angry tools  */
@@ -60,12 +66,6 @@ a {
   );
 }
 
-.gradient__text {
-  background: var(--gradient__text);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 /* Animista animation */
 .scale-up-center {
